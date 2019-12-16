@@ -1,0 +1,7 @@
+<label for="term" class="clip">Enter a search term</label>
+<input
+        id="term"
+        placeholder="Enter a search term"
+        autofocus
+        (keyup)="onTextChanged($event.target.value)"
+/>

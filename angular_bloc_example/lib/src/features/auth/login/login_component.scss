@@ -1,0 +1,39 @@
+ma-card.shake {
+  animation: shake 0.5s linear;
+}
+@keyframes shake {
+  from {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(-1rem);
+  }
+  20% {
+    transform: translateX(1rem);
+  }
+  35% {
+    transform: translateX(-0.5rem);
+  }
+  50% {
+    transform: translateX(0.5rem);
+  }
+  70% {
+    transform: translateX(-0.25rem);
+  }
+  90% {
+    transform: translateX(0.25rem);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+h1 {
+  text-align: center;
+  border-bottom: 1px solid var(--ma-primary-color);
+  color: var(--ma-secondary-color);
+  margin: 0;
+  padding: 20px;
+}
+.content {
+  padding: 20px;
+}
