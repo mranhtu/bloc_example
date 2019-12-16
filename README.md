@@ -1,51 +1,71 @@
-Bloc Example
+# Github Search
+
 Sample project which illustrates how to setup a Flutter and AngularDart project with code sharing.
 
-Quick Start
-Make sure you have the Dart SDK and Flutter SDK installed before proceeding.
+## Quick Start
+
+_Make sure you have the [Dart SDK](https://www.dartlang.org/tools/sdk) and [Flutter SDK](https://flutter.io/docs/get-started/install) installed before proceeding._
 
 Open this project in your editor of choice (VSCode is recommended).
 
-Setup
-Install dependencies for common_github_search:
+### Setup
 
-# change directories into core
-cd core
+1. Install dependencies for `common_github_search`:
 
-# install dependencies
-pub get
+   ```bash
+   # change directories into core
+   cd core
 
-# change directories back out to the root directory
-cd ../
-Install dependencies for flutter_github_search
+   # install dependencies
+   pub get
 
-# change directories into flutter_bloc_example
-cd flutter_bloc_example
+   # change directories back out to the root directory
+   cd ../
+   ```
 
-# install dependencies
-flutter packages get
+2. Install dependencies for `flutter_bloc_example`
 
-# change directories back out to the root directory
-cd ../
-Install dependencies for angular_bloc_example
+   ```bash
+   # change directories into flutter_bloc_example
+   cd flutter_bloc_example
 
-# change directories into flutter_bloc_example
-cd angular_bloc_example
+   # install dependencies
+   flutter packages get
 
-# install dependencies
-pub get
+   # change directories back out to the root directory
+   cd ../
+   ```
 
-# change directories into flutter_bloc_example
-cd ../
-Run Flutter
+3. Install dependencies for `angular_bloc_example`
+
+   ```bash
+   # change directories into flutter_bloc_example
+   cd angular_bloc_example
+
+   # install dependencies
+   pub get
+
+   # change directories into flutter_bloc_example
+   cd ../
+   ```
+
+### Run Flutter
+
+```bash
 # change directories into flutter_bloc_example
 cd flutter_bloc_example
 
 # run the flutter project
 flutter run
-Run AngularDart
+```
+
+### Run AngularDart
+
+```bash
+
 # change directories into angular_bloc_example
 cd angular_bloc_example
 
 # run the angular project
 webdev serve
+```
