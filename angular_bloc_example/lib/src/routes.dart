@@ -1,6 +1,6 @@
 import 'package:angular_router/angular_router.dart';
-import 'package:angulardart_test_components/src/features/dashboard/dashboard_component.template.dart' as dashboard_page;
-import 'package:angulardart_test_components/src/components/data_table/data_table.template.dart' as data_page;
+import 'package:angular_bloc_example/src/features/dashboard/dashboard_component.template.dart' as dashboard_page;
+import 'package:angular_bloc_example/src/components/data_table/data_table.template.dart' as data_page;
 import 'components/not_found_component.template.dart' as not_found_template;
 import 'features/auth/login/login_component.template.dart' as login_page;
 import 'features/github_search/github_search_component.template.dart' as github_search;

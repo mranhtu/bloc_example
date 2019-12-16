@@ -1,7 +1,7 @@
 import 'package:angular/angular.dart';
 import 'package:angular/core.dart';
 import 'package:angular_router/angular_router.dart';
-import 'package:angulardart_test_components/src/routes.dart';
+import 'package:angular_bloc_example/src/routes.dart';
 
 @Component(
     selector: 'data-table',

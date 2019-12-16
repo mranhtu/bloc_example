@@ -1,0 +1,46 @@
+<ma-app>
+    <ma-top-nav>
+        <div class='float-xs-right buttons' style='position: relative; top: -0.5em;'>
+            <form (ngSubmit)='handleSubmit()'>
+                <fa name='search' size='lg'></fa>
+                <input type='search' placeholder='Search' [(ngModel)]='searchTerm'>
+            </form>
+        </div>
+    </ma-top-nav>
+    <ma-side-nav>
+        <ma-side-nav-header>
+            <img class="icon" alt="Logo" src="images/favicon.png"/>
+            Modular Admin
+        </ma-side-nav-header>
+        <ma-side-nav-item [route]='Routes.dashboard.toUrl()'>
+            <fa class='foo' name='info-circle' [fw]='true' size='lg'></fa> Home
+        </ma-side-nav-item>
+        <ma-side-nav-menu>
+            <ma-side-nav-menu-header>
+                <fa name='map-signs' [fw]='true' size='lg'></fa> Navigation
+            </ma-side-nav-menu-header>
+            <ma-side-nav-item [route]='Routes.dataTable.toUrl()'>
+                Data Table
+            </ma-side-nav-item>
+            <ma-side-nav-item [route]='Routes.githubSearch.toUrl()'>
+                Github Search
+            </ma-side-nav-item>
+        </ma-side-nav-menu>
+        <ma-side-nav-item [route]='Routes.loginPage.toUrl()'>
+            <fa class='foo' name='info-circle' [fw]='true' size='lg'></fa> Login
+        </ma-side-nav-item>
+
+    </ma-side-nav>
+    <ma-content>
+        <router-outlet [routes]='Routes.all'></router-outlet>
+    </ma-content>
+
+    <ma-footer>
+        <div class='float-xs-left'>
+            ...
+        </div>
+        <div class='float-xs-right'>
+            &copy; Copyright 2019 mrtula
+        </div>
+    </ma-footer>
+</ma-app>

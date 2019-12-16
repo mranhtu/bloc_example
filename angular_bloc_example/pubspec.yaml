@@ -1,0 +1,27 @@
+name: angular_bloc_example
+description: A web app that uses AngularDart Components
+# version: 1.0.0
+# homepage: https://www.example.com
+
+dependencies:
+  #core
+  core:
+    path: ../core
+  angular: ^5.3.0
+  angular_components: ^0.13.0+1
+  #angular_analyzer_plugin: ^0.0.17+6
+  angular_router: ^2.0.0-alpha+19
+  sass_builder: ^2.1.2
+  ng_fontawesome: ^5.7.2+2
+  ng_modular_admin: ^1.0.1
+
+  #bloc
+  angular_bloc: ^2.0.0
+
+dev_dependencies:
+  angular_test: ^2.3.0
+  build_runner: ^1.6.0
+  build_test: ^0.10.8
+  build_web_compilers: ^2.3.0
+  pedantic: ^1.8.0
+  test: ^1.6.0
