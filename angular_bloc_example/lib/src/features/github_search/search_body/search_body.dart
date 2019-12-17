@@ -4,7 +4,7 @@ import 'package:core/core.dart';
 
 @Component(
   selector: 'search-body',
-  templateUrl: 'search_body_component.html',
+  templateUrl: 'search_body.html',
   directives: [
     coreDirectives,
     MaterialSpinnerComponent,

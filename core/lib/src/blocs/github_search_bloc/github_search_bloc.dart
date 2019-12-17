@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:core/src/blocs/github_search_bloc/github_search_event.dart';
 import 'package:core/src/models/model.dart';
-import 'package:core/src/repositories/github_respository.dart';
+import 'package:core/src/repositories/github_search_repositories/github_respository.dart';
 import 'package:meta/meta.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:bloc/bloc.dart';

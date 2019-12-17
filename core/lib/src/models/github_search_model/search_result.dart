@@ -1,5 +1,6 @@
 
-import 'package:core/src/models/search_result_item.dart';
+
+import 'package:core/src/github_search_bloc.dart';
 
 class SearchResult {
   final List<SearchResultItem> items;

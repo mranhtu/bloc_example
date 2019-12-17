@@ -4,7 +4,7 @@ import 'package:core/core.dart';
 
 @Component(
   selector: 'search-bar',
-  templateUrl: 'search_bar_component.html',
+  templateUrl: 'search_bar.html',
 )
 class SearchBarComponent {
   @Input()

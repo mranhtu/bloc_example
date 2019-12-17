@@ -7,9 +7,9 @@ import '../../routes.dart';
 @Component(
   selector: 'dashboard-component',
   styleUrls: [
-    'dashboard_component.css',
+    'dashboard.css',
   ],
-  templateUrl: 'dashboard_component.html',
+  templateUrl: 'dashboard.html',
   directives: [
     coreDirectives,
     routerDirectives,

@@ -2,12 +2,12 @@ import 'package:angular/angular.dart';
 import 'package:angular_bloc/angular_bloc.dart';
 import 'package:core/core.dart';
 
-import 'search_bar/search_bar_component.dart';
-import 'search_body/search_body_component.dart';
+import 'search_bar/search_bar.dart';
+import 'search_body/search_body.dart';
 
 @Component(
   selector: 'github-search',
-  templateUrl: 'github_search_component.html',
+  templateUrl: 'github_search.html',
     directives: [
       SearchBarComponent,
       SearchBodyComponent,

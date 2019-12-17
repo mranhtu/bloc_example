@@ -14,10 +14,10 @@ import 'package:ng_modular_admin/ng_modular_admin.dart';
 @Component(
   selector: 'my-app',
   styleUrls: [
-    'app_component.css',
+    'app.css',
     'package:angular_components/app_layout/layout.scss.css',
   ],
-  templateUrl: 'app_component.html',
+  templateUrl: 'app.html',
   directives: [
     coreDirectives,
     routerDirectives,

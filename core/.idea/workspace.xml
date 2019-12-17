@@ -1,13 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea4579e8-dea6-405a-b05d-222f172cba9b" name="Default Changelist" comment="" />
+    <list default="true" id="ea4579e8-dea6-405a-b05d-222f172cba9b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/app_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/app_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/app_component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/components/not_found_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/src/components/not_found.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/auth/login/login_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/auth/login/login.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/auth/login/login_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/auth/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/auth/login/login_component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/auth/login/login.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/dashboard/dashboard_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/dashboard/dashboard.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/dashboard/dashboard_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/dashboard/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/dashboard/dashboard_component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/dashboard/dashboard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/github_search/github_search_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/github_search/github_search.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/github_search/github_search_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/github_search/github_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/github_search/github_search_component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/github_search/github_search.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/github_search/search_bar/search_bar_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/github_search/search_bar/search_bar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/github_search/search_bar/search_bar_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/github_search/search_bar/search_bar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/github_search/search_body/search_body_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/github_search/search_body/search_body.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/github_search/search_body/search_body_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/src/features/github_search/search_body/search_body.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/lib/src/routes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/todo_list/todo_list_component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/todo_list/todo_list_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/todo_list/todo_list_component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/lib/src/todo_list/todo_list_service.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/test/app_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/test/app_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular_bloc_example/web/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_bloc_example/web/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/blocs/github_search_bloc/github_search_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/blocs/github_search_bloc/github_search_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/github_search_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/github_search_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/models/github_user.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/models/github_search_model/github_user.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/models/model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/models/model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/models/search_result.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/models/github_search_model/search_result.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/models/search_result_error.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/models/github_search_model/search_result_error.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/models/search_result_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/models/github_search_model/search_result_item.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/repositories/github_cache.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/repositories/github_search_repositories/github_cache.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/repositories/github_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/repositories/github_search_repositories/github_client.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/repositories/github_respository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/repositories/github_search_repositories/github_respository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flutter_bloc_example/lib/features/github_search/search_form_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../flutter_bloc_example/lib/features/github_search/search_form_view.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1V39yNdrLyBFkzPQerGQPfG4cmC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -18,6 +58,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="ServiceViewManager">
@@ -43,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576471164951</updated>
       <workItem from="1576471170922" duration="278000" />
+      <workItem from="1576565807097" duration="22000" />
     </task>
     <servers />
   </component>

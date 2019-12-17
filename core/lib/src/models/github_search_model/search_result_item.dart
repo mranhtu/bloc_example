@@ -1,4 +1,5 @@
-import 'package:core/src/models/github_user.dart';
+
+import '../../github_search_bloc.dart';
 
 class SearchResultItem {
   final String fullName;

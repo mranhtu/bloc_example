@@ -9,8 +9,8 @@ import '../../../routes.dart';
 
 @Component(
   selector: 'login-component',
-  templateUrl: 'login_component.html',
-  styleUrls: ['login_component.css'],
+  templateUrl: 'login.html',
+  styleUrls: ['login.css'],
   directives: [
     coreDirectives,
     routerDirectives,
