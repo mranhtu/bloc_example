@@ -6,7 +6,7 @@ import './bloc.dart';
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
   final UserRepository userRepository;
 
-  AuthBloc({this.userRepository}): assert(userRepository != null);
+  AuthBloc({this.userRepository}) : assert(userRepository != null);
 
   @override
   AuthState get initialState => AuthUninitialized();
@@ -15,9 +15,9 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
   Stream<AuthState> mapEventToState(
     AuthEvent event,
   ) async* {
-    if(event is AppStarted){
+    if (event is AppStarted) {
       final bool hasToken = await userRepository.hasToken();
-      if(hasToken){
+      if (hasToken) {
         yield AuthAuthenticated();
       } else {
         yield AuthUnauthenticated();

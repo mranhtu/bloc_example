@@ -18,15 +18,12 @@ class UserApiClient {
     final response = await _httpClient.post(
       path.join(baseUrl, LOGIN_PATH),
       queryParameters: null,
-      data: {
-        'username': email,
-        'password': password
-      },
-      options: Options(
-        contentType: "application/json",
-        headers: null //for test only
-      ),
+      data: {'username': email, 'password': password},
+      options:
+          Options(contentType: "application/json", headers: null //for test only
+              ),
     );
+
     ///todo
     return UserModel.fromJson(response.data['result']);
   }

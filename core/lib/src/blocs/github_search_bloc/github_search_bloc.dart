@@ -9,7 +9,6 @@ import 'package:bloc/bloc.dart';
 
 import 'github_search_state.dart';
 
-
 class GithubSearchBloc extends Bloc<GithubSearchEvent, GithubSearchState> {
   final GithubRepository githubRepository;
 
@@ -17,13 +16,13 @@ class GithubSearchBloc extends Bloc<GithubSearchEvent, GithubSearchState> {
 
   @override
   Stream<GithubSearchState> transformEvents(
-      Stream<GithubSearchEvent> events,
-      Stream<GithubSearchState> Function(GithubSearchEvent event) next,
-      ) {
+    Stream<GithubSearchEvent> events,
+    Stream<GithubSearchState> Function(GithubSearchEvent event) next,
+  ) {
     return (events as Observable<GithubSearchEvent>)
         .debounceTime(
-      Duration(milliseconds: 300),
-    )
+          Duration(milliseconds: 300),
+        )
         .switchMap(next);
   }
 

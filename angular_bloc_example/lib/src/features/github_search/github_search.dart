@@ -6,23 +6,21 @@ import 'search_bar/search_bar.dart';
 import 'search_body/search_body.dart';
 
 @Component(
-  selector: 'github-search',
-  templateUrl: 'github_search.html',
+    selector: 'github-search',
+    templateUrl: 'github_search.html',
     directives: [
       SearchBarComponent,
       SearchBodyComponent,
     ],
     pipes: [
       BlocPipe
-    ]
-)
+    ])
 class GithubSearchComponent implements OnInit, OnDestroy {
-
   @Input()
   GithubRepository githubRepository = GithubRepository(
-      GithubCache(),
-      GithubClient(),
-      );
+    GithubCache(),
+    GithubClient(),
+  );
 
   GithubSearchBloc githubSearchBloc;
 

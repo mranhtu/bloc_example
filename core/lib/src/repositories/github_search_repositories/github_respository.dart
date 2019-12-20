@@ -5,7 +5,6 @@ import 'package:core/src/models/model.dart';
 import 'github_cache.dart';
 import 'github_client.dart';
 
-
 class GithubRepository {
   final GithubCache cache;
   final GithubClient client;

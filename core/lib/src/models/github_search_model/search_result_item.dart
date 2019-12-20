@@ -1,4 +1,3 @@
-
 import '../../github_search_bloc.dart';
 
 class SearchResultItem {

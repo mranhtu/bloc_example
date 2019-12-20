@@ -1,5 +1,3 @@
-
-
 import 'package:core/src/github_search_bloc.dart';
 
 class SearchResult {
@@ -10,7 +8,7 @@ class SearchResult {
   static SearchResult fromJson(Map<String, dynamic> json) {
     final items = (json['items'] as List<dynamic>)
         .map((dynamic item) =>
-        SearchResultItem.fromJson(item as Map<String, dynamic>))
+            SearchResultItem.fromJson(item as Map<String, dynamic>))
         .toList();
     return SearchResult(items: items);
   }

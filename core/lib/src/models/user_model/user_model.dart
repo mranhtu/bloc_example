@@ -18,22 +18,22 @@ class UserModel {
   });
 
   factory UserModel.fromJson(dynamic json) => UserModel(
-    token: json["token"] as String,
-    username: json["username"] as String,
-    id: json["id"] as String,
-    name: json["name"] as String,
-    role: json["role"] as String,
-    orgId: json["orgId"] as String,
-    orgName: json["orgName"] as String,
-  );
+        token: json["token"] as String,
+        username: json["username"] as String,
+        id: json["id"] as String,
+        name: json["name"] as String,
+        role: json["role"] as String,
+        orgId: json["orgId"] as String,
+        orgName: json["orgName"] as String,
+      );
 
   Map<String, dynamic> toJson() => {
-    "token": token,
-    "username": username,
-    "id": id,
-    "name": name,
-    "role": role,
-    "orgId": orgId,
-    "orgName": orgName,
-  };
+        "token": token,
+        "username": username,
+        "id": id,
+        "name": name,
+        "role": role,
+        "orgId": orgId,
+        "orgName": orgName,
+      };
 }

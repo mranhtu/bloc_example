@@ -3,16 +3,14 @@ import 'package:angular_components/angular_components.dart';
 import 'package:core/core.dart';
 
 @Component(
-    selector: 'login_state',
-    templateUrl: 'login_state.html',
-    directives: [
-      coreDirectives,
-      MaterialSpinnerComponent,
-      MaterialIconComponent,
-    ],
-    providers: [
-      materialProviders
-    ],
+  selector: 'login_state',
+  templateUrl: 'login_state.html',
+  directives: [
+    coreDirectives,
+    MaterialSpinnerComponent,
+    MaterialIconComponent,
+  ],
+  providers: [materialProviders],
 )
 class LoginStateComponent implements OnInit {
   @Input()

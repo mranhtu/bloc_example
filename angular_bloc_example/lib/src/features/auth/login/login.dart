@@ -1,4 +1,3 @@
-
 import 'dart:html';
 
 import 'package:angular/angular.dart';
@@ -32,13 +31,10 @@ import 'login_state.dart';
     ClassProvider(LoginBloc),
     ClassProvider(AuthBloc)
   ],
-  pipes: [
-    BlocPipe
-  ],
+  pipes: [BlocPipe],
   exports: [Routes],
 )
-
-class LoginComponent implements OnInit{
+class LoginComponent implements OnInit {
   final keyValueStore = WebKeyValueStore(window.localStorage);
   Router router;
   ControlGroup loginForm;
@@ -66,8 +62,7 @@ class LoginComponent implements OnInit{
     authBloc = AuthBloc(userRepository: userRepository);
     loginBloc = LoginBloc(
         userRepository: userRepository,
-        authBloc: AuthBloc(userRepository: userRepository)
-    );
+        authBloc: AuthBloc(userRepository: userRepository));
   }
 
   void login() {
@@ -75,9 +70,13 @@ class LoginComponent implements OnInit{
     var username = loginForm.controls['username'].value;
 
     loginBloc.add(LoginButtonPressed(email: username, password: password));
+
     ///how to listen state change
-    ///
 
     print(authBloc?.state);
+
+    authBloc.listen((state) {
+      print(state);
+    });
   }
 }

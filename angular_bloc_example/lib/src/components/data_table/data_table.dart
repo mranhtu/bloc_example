@@ -11,11 +11,6 @@ import 'package:angular_bloc_example/src/routes.dart';
       RouterOutlet,
     ],
     exports: [Routes],
-    directiveTypes: [
-
-    ],
+    directiveTypes: [],
     changeDetection: ChangeDetectionStrategy.OnPush)
-
-class DataTableComponent {
-
-}
+class DataTableComponent {}

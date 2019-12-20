@@ -11,7 +11,5 @@ import 'package:angular_bloc_example/src/routes.dart';
       RouterOutlet,
     ],
     exports: [Routes],
-    changeDetection: ChangeDetectionStrategy.OnPush
-)
-class CkeditorDemoComponent {
-}
+    changeDetection: ChangeDetectionStrategy.OnPush)
+class CkeditorDemoComponent {}

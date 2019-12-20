@@ -15,12 +15,7 @@ import '../../routes.dart';
     routerDirectives,
     modularAdminDirectives,
   ],
-  providers: [
-    modularAdminProviders
-  ],
+  providers: [modularAdminProviders],
   exports: [Routes],
 )
-
-class DashboardComponent {
-
-}
+class DashboardComponent {}

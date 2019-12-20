@@ -14,7 +14,8 @@ class UserRepository {
     @required String email,
     @required String password,
   }) async {
-    final userResults = await userApiClient.login(email: email, password: password);
+    final userResults =
+        await userApiClient.login(email: email, password: password);
     return userResults;
   }
 
@@ -33,7 +34,7 @@ class UserRepository {
 
   Future<bool> hasToken() async {
     final user = keyValueStore?.getString(USER_PROFILE);
-    if(user?.isNotEmpty ?? false){
+    if (user?.isNotEmpty ?? false) {
       return true;
     } else {
       return false;

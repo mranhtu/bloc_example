@@ -3,5 +3,4 @@ export 'github_search_model/search_result_error.dart';
 export 'github_search_model/search_result_item.dart';
 export 'github_search_model/search_result.dart';
 
-
 export 'user_model/_model.dart';

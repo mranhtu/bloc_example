@@ -3,17 +3,16 @@ import 'package:angular_components/angular_components.dart';
 import 'package:core/core.dart';
 
 @Component(
-  selector: 'search-body',
-  templateUrl: 'search_body.html',
-  directives: [
-    coreDirectives,
-    MaterialSpinnerComponent,
-    MaterialIconComponent,
-  ],
-  providers: [
-    materialProviders
-  ]
-)
+    selector: 'search-body',
+    templateUrl: 'search_body.html',
+    directives: [
+      coreDirectives,
+      MaterialSpinnerComponent,
+      MaterialIconComponent,
+    ],
+    providers: [
+      materialProviders
+    ])
 class SearchBodyComponent {
   @Input()
   GithubSearchState state;
@@ -25,6 +24,6 @@ class SearchBodyComponent {
 
   List<SearchResultItem> get items =>
       isSuccess ? (state as SearchStateSuccess).items : [];
-  
+
   String get error => isError ? (state as SearchStateError).error : '';
 }

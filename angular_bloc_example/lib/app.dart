@@ -25,10 +25,7 @@ import 'package:ng_modular_admin/ng_modular_admin.dart';
     formDirectives,
     modularAdminDirectives,
   ],
-  providers: [
-    materialProviders,
-    modularAdminProviders
-  ],
+  providers: [materialProviders, modularAdminProviders],
   exports: [Routes],
 )
 class AppComponent {

@@ -41,7 +41,7 @@ class _SearchBarState extends State<SearchBar> {
         border: InputBorder.none,
         hintText: 'Search',
       ),
-      onChanged: (String value){
+      onChanged: (String value) {
         _githubSearchBloc.add(TextChanged(text: value));
       },
     );
