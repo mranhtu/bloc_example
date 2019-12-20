@@ -25,6 +25,6 @@ class SearchBodyComponent {
 
   List<SearchResultItem> get items =>
       isSuccess ? (state as SearchStateSuccess).items : [];
-
+  
   String get error => isError ? (state as SearchStateError).error : '';
 }

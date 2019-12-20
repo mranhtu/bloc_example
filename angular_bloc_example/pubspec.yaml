@@ -17,6 +17,7 @@ dependencies:
 
   #bloc
   angular_bloc: ^2.0.0
+  key_value_store_web: ^1.0.0
 
 dev_dependencies:
   angular_test: ^2.3.0

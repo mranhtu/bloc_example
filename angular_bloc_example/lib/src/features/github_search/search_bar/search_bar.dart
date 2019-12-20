@@ -10,7 +10,11 @@ class SearchBarComponent {
   @Input()
   GithubSearchBloc githubSearchBloc;
 
+  @Input()
+  GithubSearchState state;
+
   void onTextChanged(String text) {
     githubSearchBloc.add(TextChanged(text: text));
+    print(state);
   }
 }

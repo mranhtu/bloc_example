@@ -2,30 +2,31 @@
     <ma-card [class.shake]='shake'>
         <h1>Login</h1>
         <div class="content">
-            <form>
-                <ma-input-group>
+            <form (submit)='login()' [ngFormModel]='loginForm'>
+
+                <ma-input-group [control]='loginForm.controls["username"]'>
                     <label class='input-label'>Username</label>
-                    <input type='text'
+                    <input type='text' class='input-login'
                            ngControl='username'
-                           placeholder='Enter any username'>
+                    >
                 </ma-input-group>
                 <ma-input-group>
                     <label class='input-label'>Password</label>
-                    <input type='password'
-                           ngControl='password'
-                           placeholder='Enter "password123"'>
+                    <input type='password' class='input-login'
+                           ngControl='password'>
                 </ma-input-group>
+                <login_state [authState]="authBloc | bloc"></login_state>
+                <p>{{ authBloc | bloc }}</p>
                 <ma-checkbox-group class='text-xs-right'>
                     <label>
                         <input type='checkbox'>
                         Remember Me
                     </label>
                 </ma-checkbox-group>
-                <ma-button [submit]='true' [block]='true'>Login</ma-button>
-                <p class='text-xs-center'>
-                    Don't have an account?
-                    <a>Sign up</a>
-                </p>
+                <div  class="btn-login">
+                    <ma-button type='danger' [block]='true' [submit]="true">Login
+                    </ma-button>
+                </div>
             </form>
         </div>
     </ma-card>
